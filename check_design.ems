@@ -1,0 +1,121 @@
+<Database>
+versionNumber:2
+Name/home/sriragav5071/smart/check_design.ems
+Creation TimeSat Sep 26 06:10:29 2026
+Modified TimeSat Sep 26 06:10:29 2026
+Design Namesmart_bus
+Library Namelib_pdc
+</Database>
+<RuleCount>
+DFT-0111
+TCK-00172
+TCK-00231
+</RuleCount>
+<UserDefinedRules>
+</UserDefinedRules>
+<Messages>
+DFT-011Informationreason10
+TCK-002Warningcornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pincurrent_type_reg[0]/CLK1[ get_pin { current_type_reg[0]/CLK } ]6
+TCK-002Warningcornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinpending_emergency_reg[0]/CLK1[ get_pin { pending_emergency_reg[0]/CLK } ]6
+TCK-002Warningcornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinpending_emergency_reg[1]/CLK1[ get_pin { pending_emergency_reg[1]/CLK } ]6
+TCK-002Warningcornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinpending_arrival_reg[1]/CLK1[ get_pin { pending_arrival_reg[1]/CLK } ]6
+TCK-002Warningcornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinpending_arrival_reg[7]/CLK1[ get_pin { pending_arrival_reg[7]/CLK } ]6
+TCK-002Warningcornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinpending_emergency_reg[3]/CLK1[ get_pin { pending_emergency_reg[3]/CLK } ]6
+TCK-002Warningcornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinpending_emergency_reg[2]/CLK1[ get_pin { pending_emergency_reg[2]/CLK } ]6
+TCK-002Warningcornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinpending_arrival_reg[3]/CLK1[ get_pin { pending_arrival_reg[3]/CLK } ]6
+TCK-002Warningcornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinpending_arrival_reg[2]/CLK1[ get_pin { pending_arrival_reg[2]/CLK } ]6
+TCK-002Warningcornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinpending_emergency_reg[5]/CLK1[ get_pin { pending_emergency_reg[5]/CLK } ]6
+TCK-002Warningcornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinpending_emergency_reg[4]/CLK1[ get_pin { pending_emergency_reg[4]/CLK } ]6
+TCK-002Warningcornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinpending_emergency_reg[7]/CLK1[ get_pin { pending_emergency_reg[7]/CLK } ]6
+TCK-002Warningcornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinpending_emergency_reg[6]/CLK1[ get_pin { pending_emergency_reg[6]/CLK } ]6
+TCK-002Warningcornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinpending_service_reg[0]/CLK1[ get_pin { pending_service_reg[0]/CLK } ]6
+TCK-002Warningcornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinpending_service_reg[1]/CLK1[ get_pin { pending_service_reg[1]/CLK } ]6
+TCK-002Warningcornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinpending_service_reg[3]/CLK1[ get_pin { pending_service_reg[3]/CLK } ]6
+TCK-002Warningcornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinpending_service_reg[5]/CLK1[ get_pin { pending_service_reg[5]/CLK } ]6
+TCK-002Warningcornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinpending_service_reg[2]/CLK1[ get_pin { pending_service_reg[2]/CLK } ]6
+TCK-002Warningcornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinpending_service_reg[4]/CLK1[ get_pin { pending_service_reg[4]/CLK } ]6
+TCK-002Warningcornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinpending_service_reg[7]/CLK1[ get_pin { pending_service_reg[7]/CLK } ]6
+TCK-002Warningcornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinpending_service_reg[6]/CLK1[ get_pin { pending_service_reg[6]/CLK } ]6
+TCK-002Warningcornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinpending_arrival_reg[0]/CLK1[ get_pin { pending_arrival_reg[0]/CLK } ]6
+TCK-002Warningcornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pindisplay_busy_reg/CLK1[ get_pin { display_busy_reg/CLK } ]6
+TCK-002Warningcornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinpending_arrival_reg[6]/CLK1[ get_pin { pending_arrival_reg[6]/CLK } ]6
+TCK-002Warningcornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinpending_arrival_reg[5]/CLK1[ get_pin { pending_arrival_reg[5]/CLK } ]6
+TCK-002Warningcornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pinpending_arrival_reg[4]/CLK1[ get_pin { pending_arrival_reg[4]/CLK } ]6
+TCK-002Warningcornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pincurrent_route_reg[3]/CLK1[ get_pin { current_route_reg[3]/CLK } ]6
+TCK-002Warningcornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pincurrent_type_reg[1]/CLK1[ get_pin { current_type_reg[1]/CLK } ]6
+TCK-002Warningcornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pincurrent_route_reg[0]/CLK1[ get_pin { current_route_reg[0]/CLK } ]6
+TCK-002Warningcornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pincurrent_route_reg[1]/CLK1[ get_pin { current_route_reg[1]/CLK } ]6
+TCK-002Warningcornerfast1[ get_corners { fast } ]40modefunc1[ get_modes { func } ]39pincurrent_route_reg[2]/CLK1[ get_pin { current_route_reg[2]/CLK } ]6
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointdisplay_route_data[15]1[ get_port { display_route_data[15] } ]7modefunc1[ get_modes { func } ]39reasonno check10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointdisplay_route_data[14]1[ get_port { display_route_data[14] } ]7modefunc1[ get_modes { func } ]39reasonno check10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointdisplay_route_data[13]1[ get_port { display_route_data[13] } ]7modefunc1[ get_modes { func } ]39reasonno check10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointdisplay_route_data[12]1[ get_port { display_route_data[12] } ]7modefunc1[ get_modes { func } ]39reasonno check10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointdisplay_route_data[11]1[ get_port { display_route_data[11] } ]7modefunc1[ get_modes { func } ]39reasonno check10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointdisplay_route_data[10]1[ get_port { display_route_data[10] } ]7modefunc1[ get_modes { func } ]39reasonno check10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointdisplay_route_data[9]1[ get_port { display_route_data[9] } ]7modefunc1[ get_modes { func } ]39reasonno check10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointdisplay_route_data[8]1[ get_port { display_route_data[8] } ]7modefunc1[ get_modes { func } ]39reasonno check10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointdisplay_route_data[7]1[ get_port { display_route_data[7] } ]7modefunc1[ get_modes { func } ]39reasonno check10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointdisplay_route_data[6]1[ get_port { display_route_data[6] } ]7modefunc1[ get_modes { func } ]39reasonno check10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointdisplay_route_data[5]1[ get_port { display_route_data[5] } ]7modefunc1[ get_modes { func } ]39reasonno check10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointdisplay_route_data[4]1[ get_port { display_route_data[4] } ]7modefunc1[ get_modes { func } ]39reasonno check10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointdisplay_route_data[3]1[ get_port { display_route_data[3] } ]7modefunc1[ get_modes { func } ]39reasonno check10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointdisplay_route_data[2]1[ get_port { display_route_data[2] } ]7modefunc1[ get_modes { func } ]39reasonno check10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointdisplay_route_data[1]1[ get_port { display_route_data[1] } ]7modefunc1[ get_modes { func } ]39reasonno check10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointdisplay_route_data[0]1[ get_port { display_route_data[0] } ]7modefunc1[ get_modes { func } ]39reasonno check10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointdisplay_alert_data[15]1[ get_port { display_alert_data[15] } ]7modefunc1[ get_modes { func } ]39reasonno check10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointdisplay_alert_data[14]1[ get_port { display_alert_data[14] } ]7modefunc1[ get_modes { func } ]39reasonno check10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointdisplay_alert_data[13]1[ get_port { display_alert_data[13] } ]7modefunc1[ get_modes { func } ]39reasonno check10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointdisplay_alert_data[12]1[ get_port { display_alert_data[12] } ]7modefunc1[ get_modes { func } ]39reasonno check10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointdisplay_alert_data[11]1[ get_port { display_alert_data[11] } ]7modefunc1[ get_modes { func } ]39reasonno check10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointdisplay_alert_data[10]1[ get_port { display_alert_data[10] } ]7modefunc1[ get_modes { func } ]39reasonno check10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointdisplay_alert_data[9]1[ get_port { display_alert_data[9] } ]7modefunc1[ get_modes { func } ]39reasonno check10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointdisplay_alert_data[8]1[ get_port { display_alert_data[8] } ]7modefunc1[ get_modes { func } ]39reasonno check10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointdisplay_alert_data[7]1[ get_port { display_alert_data[7] } ]7modefunc1[ get_modes { func } ]39reasonno check10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointdisplay_alert_data[6]1[ get_port { display_alert_data[6] } ]7modefunc1[ get_modes { func } ]39reasonno check10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointdisplay_alert_data[5]1[ get_port { display_alert_data[5] } ]7modefunc1[ get_modes { func } ]39reasonno check10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointdisplay_alert_data[4]1[ get_port { display_alert_data[4] } ]7modefunc1[ get_modes { func } ]39reasonno check10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointdisplay_alert_data[3]1[ get_port { display_alert_data[3] } ]7modefunc1[ get_modes { func } ]39reasonno check10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointdisplay_alert_data[2]1[ get_port { display_alert_data[2] } ]7modefunc1[ get_modes { func } ]39reasonno check10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointdisplay_alert_data[1]1[ get_port { display_alert_data[1] } ]7modefunc1[ get_modes { func } ]39reasonno check10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointdisplay_alert_data[0]1[ get_port { display_alert_data[0] } ]7modefunc1[ get_modes { func } ]39reasonno check10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointupper_display_valid1[ get_port { upper_display_valid } ]7modefunc1[ get_modes { func } ]39reasonno check10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointlower_display_valid1[ get_port { lower_display_valid } ]7modefunc1[ get_modes { func } ]39reasonno check10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointemergency_active1[ get_port { emergency_active } ]7modefunc1[ get_modes { func } ]39reasonno check10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointservice_alert_active1[ get_port { service_alert_active } ]7modefunc1[ get_modes { func } ]39reasonno check10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointdisplay_busy1[ get_port { display_busy } ]7modefunc1[ get_modes { func } ]39reasonno check10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointselected_route[3]1[ get_port { selected_route[3] } ]7modefunc1[ get_modes { func } ]39reasonno check10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointselected_route[2]1[ get_port { selected_route[2] } ]7modefunc1[ get_modes { func } ]39reasonno check10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointselected_route[1]1[ get_port { selected_route[1] } ]7modefunc1[ get_modes { func } ]39reasonno check10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointselected_route[0]1[ get_port { selected_route[0] } ]7modefunc1[ get_modes { func } ]39reasonno check10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointcurrent_type_reg[0]/D1[ get_pin { current_type_reg[0]/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointpending_emergency_reg[0]/D1[ get_pin { pending_emergency_reg[0]/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointpending_emergency_reg[1]/D1[ get_pin { pending_emergency_reg[1]/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointpending_arrival_reg[1]/D1[ get_pin { pending_arrival_reg[1]/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointpending_arrival_reg[7]/D1[ get_pin { pending_arrival_reg[7]/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointpending_emergency_reg[3]/D1[ get_pin { pending_emergency_reg[3]/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointpending_emergency_reg[2]/D1[ get_pin { pending_emergency_reg[2]/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointpending_arrival_reg[3]/D1[ get_pin { pending_arrival_reg[3]/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointpending_arrival_reg[2]/D1[ get_pin { pending_arrival_reg[2]/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointpending_emergency_reg[5]/D1[ get_pin { pending_emergency_reg[5]/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointpending_emergency_reg[4]/D1[ get_pin { pending_emergency_reg[4]/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointpending_emergency_reg[7]/D1[ get_pin { pending_emergency_reg[7]/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointpending_emergency_reg[6]/D1[ get_pin { pending_emergency_reg[6]/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointpending_service_reg[0]/D1[ get_pin { pending_service_reg[0]/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointpending_service_reg[1]/D1[ get_pin { pending_service_reg[1]/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointpending_service_reg[3]/D1[ get_pin { pending_service_reg[3]/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointpending_service_reg[5]/D1[ get_pin { pending_service_reg[5]/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointpending_service_reg[2]/D1[ get_pin { pending_service_reg[2]/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointpending_service_reg[4]/D1[ get_pin { pending_service_reg[4]/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointpending_service_reg[7]/D1[ get_pin { pending_service_reg[7]/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointpending_service_reg[6]/D1[ get_pin { pending_service_reg[6]/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointpending_arrival_reg[0]/D1[ get_pin { pending_arrival_reg[0]/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointdisplay_busy_reg/D1[ get_pin { display_busy_reg/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointpending_arrival_reg[6]/D1[ get_pin { pending_arrival_reg[6]/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointpending_arrival_reg[5]/D1[ get_pin { pending_arrival_reg[5]/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointpending_arrival_reg[4]/D1[ get_pin { pending_arrival_reg[4]/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointcurrent_route_reg[3]/D1[ get_pin { current_route_reg[3]/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointcurrent_type_reg[1]/D1[ get_pin { current_type_reg[1]/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointcurrent_route_reg[0]/D1[ get_pin { current_route_reg[0]/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointcurrent_route_reg[1]/D1[ get_pin { current_route_reg[1]/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+TCK-001Warningcornerfast1[ get_corners { fast } ]40endpointcurrent_route_reg[2]/D1[ get_pin { current_route_reg[2]/D } ]6modefunc1[ get_modes { func } ]39reasonunclocked10
+</Messages>

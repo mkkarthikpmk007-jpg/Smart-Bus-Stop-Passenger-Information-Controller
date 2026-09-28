@@ -1,0 +1,121 @@
+****************************************
+Report : Violation analysis
+Design : smart_bus
+Block  : lib_pdc:smart_bus.design
+Version: X-2025.06-SP1
+Date   : Sat Sep 26 06:04:25 2026
+****************************************
+
+  Detect 8 violating nets.
+      Worst: -0.103      Total: -0.511      Average: -0.064
+  0 violating nets are categorized.
+      Worst: 0.000      Total: 0.000      Average: 0.000
+  8 violating nets are uncategorized.
+      Worst: -0.103      Total: -0.511      Average: -0.064
+
+  Detect 8 violating pins.
+      Worst: -0.103      Total: -0.511      Average: -0.064
+  0 violating pins are categorized.
+      Worst: 0.000      Total: 0.000      Average: 0.000
+  8 violating pins are uncategorized.
+      Worst: -0.103      Total: -0.511      Average: -0.064
+
+  ****** Unfixable max_trans violations due to design and user constraints ******
+  category                                                     Net-cnt    Net-wst    Net-tot    Net-% | Pin-cnt    Pin-wst    Pin-tot    Pin-%
+  -----------------                                            -------    -------    -------    ----- | -------    -------    -------    -----
+  * category  DRC1: Entire net is dont_touch(D)                      0
+  * category  DRC2: Net between pad cell and port(PAD)               0
+  * category  DRC3: Tristate nets(TR)                                0
+  * category  DRC4: Nets with multiple drivers(MD)                   0
+  * category  DRC5: Nets in read-only sub blocks(RO)                 0
+  * category  DRC6: Nets are highly blocked(BLK)                     0
+  * category  DRC7: Nets with port far from the core area(FP)        0
+  * category  DRC8: Large input transition of driver(LI)             0
+
+  ****** Clock network ******
+  -----------------                                            -------    -------    -------    ----- | -------    -------    -------    -----
+  * category  DRC9: Clock is used as clock only(COC)                 0
+  * category  DRC10: Clock is used as data path only(COD)            0
+  * category  DRC11: Clock is used as clock and data(CAD)            0
+  * category  DRC12: Clock is used as others(CO)                     0
+
+  ****** Remaining uncategorized fixable violations ******
+  -----------------                                            -------    -------    -------    ----- | -------    -------    -------    -----
+  * category  DRC13: Net segment is locally multi-driven(LMD)        0
+  * category  DRC14: Net is crossing high density area(DEN)          0
+  * category  DRC15: Net is partially blocked(PB)                    0
+  * category  DRC16: Connect to excluded cell of XMB(XME)            0
+  * category  DRC17: Connect to excluded cell of HMB(HME)            0
+  * category  DRC18: Nets across different exclusive MBs(DXM)        0
+  * category  DRC19: Nets across different hard MBs(DHM)             0
+  * category  DRC20: Some segments of net are dont_touch(PD)         0
+  * category  DRC21: High fanout nets(> 40)(HF)                      0
+  * category  DRC22: Nets crossing different voltage areas(MV)       0
+  * category  DRC23: Nets with small violation(> -0.005)(S)          1     -0.003     -0.003    0.67% |       1     -0.003     -0.003    0.67%
+  * category  DRC24: Nets are too short(TS)                          0
+  * category  DRC25: Nets are long(> 400.0um)(LN)                    0
+  * category  DRC26: Other violations(OV)                            7     -0.103     -0.507   99.33% |       7     -0.103     -0.507   99.33%
+
+  ****** Remaining violations distributed by slack ******
+  -0.100 >= slack > -~                                               1     -0.103     -0.103   20.07% |       1     -0.103     -0.103   20.07%
+  -0.050 >= slack > -0.100                                           6     -0.083     -0.405   79.26% |       6     -0.083     -0.405   79.26%
+  -0.020 >= slack > -0.050                                           0      0.000      0.000   -0.00% |       0      0.000      0.000   -0.00%
+  -0.010 >= slack > -0.020                                           0      0.000      0.000   -0.00% |       0      0.000      0.000   -0.00%
+  -0.005 >= slack > -0.010                                           1     -0.003     -0.003    0.67% |       1     -0.003     -0.003    0.67%
+
+  ****** Remaining violations distributed by fanout ******
+     100 <= fanout < ~                                               0      0.000      0.000   -0.00% |       0      0.000      0.000   -0.00%
+      40 <= fanout < 100                                             0      0.000      0.000   -0.00% |       0      0.000      0.000   -0.00%
+      20 <= fanout <  40                                             0      0.000      0.000   -0.00% |       0      0.000      0.000   -0.00%
+      10 <= fanout <  20                                             8     -0.103     -0.511  100.00% |       8     -0.103     -0.511  100.00%
+
+  ****** Remaining violations distributed by length ******
+   800.0 <= length < ~                                               0      0.000      0.000   -0.00% |       0      0.000      0.000   -0.00%
+   400.0 <= length <  800.0                                          0      0.000      0.000   -0.00% |       0      0.000      0.000   -0.00%
+   200.0 <= length <  400.0                                          0      0.000      0.000   -0.00% |       0      0.000      0.000   -0.00%
+   100.0 <= length <  200.0                                          0      0.000      0.000   -0.00% |       0      0.000      0.000   -0.00%
+     0.0 <= length <  100.0                                          8     -0.103     -0.511  100.00% |       8     -0.103     -0.511  100.00%
+
+  ****** Remaining violations distributed by constraint ******
+  cstr = 0.243                                                                                        |       7     -0.103     -0.507   99.33%
+  cstr = 0.160                                                                                        |       1     -0.003     -0.003    0.67%
+
+  Top 10 Violations:
+  # 1: n81, -0.103.(OV)
+  # 2: n76, -0.083.(OV)
+  # 3: n83, -0.077.(OV)
+  # 4: n84, -0.075.(OV)
+  # 5: n80, -0.060.(OV)
+  # 6: n78, -0.058.(OV)
+  # 7: n79, -0.050.(OV)
+  # 8: selected_route[0], -0.003.(S)
+
+  ****** Unfixable max_trans violations due to design and user constraints ******
+
+  ****** Clock network ******
+
+  ****** Remaining uncategorized fixable violations ******
+  
+* category  DRC23: Nets with small violation(> -0.005)(S)         1     -0.003     -0.003    0.67% |       1     -0.003     -0.003    0.67%
+** Net name & the worst violating pin name                                        constraint    slack    scenario **
+  ---------------------------------------                                         ----------    -----    --------
+  selected_route[0]
+    Worst Pin: current_route_reg[0]/Q                                                 0.160,   -0.003,   func_slow
+  
+* category  DRC26: Other violations(OV)                           7     -0.103     -0.507   99.33% |       7     -0.103     -0.507   99.33%
+** Net name & the worst violating pin name                                        constraint    slack    scenario **
+  ---------------------------------------                                         ----------    -----    --------
+  n81
+    Worst Pin: U241/Y                                                                 0.243,   -0.103,   func_slow
+  n76
+    Worst Pin: U233/Y                                                                 0.243,   -0.083,   func_slow
+  n83
+    Worst Pin: U239/Y                                                                 0.243,   -0.077,   func_slow
+  n84
+    Worst Pin: U237/Y                                                                 0.243,   -0.075,   func_slow
+  n80
+    Worst Pin: U243/Y                                                                 0.243,   -0.060,   func_slow
+  n78
+    Worst Pin: U232/Y                                                                 0.243,   -0.058,   func_slow
+  n79
+    Worst Pin: U231/Y                                                                 0.243,   -0.050,   func_slow
